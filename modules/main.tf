@@ -21,7 +21,7 @@ resource "aws_s3_bucket" "TEST1" {
 
   tags = {
     Name        = "Leidos Compliance Reports"
-    Environment = "PROD"
+    Environment = "TST"
   }
 }
 
@@ -39,7 +39,7 @@ resource "aws_s3_bucket" "TEST2" {
 
   tags = {
     Name        = "Leidos Compliance Reports"
-    Environment = "PROD"
+    Environment = "TST"
   }
 }
 
